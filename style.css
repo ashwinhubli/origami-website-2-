@@ -1,0 +1,31 @@
+h1 {
+    color :brown;
+}
+/* /* {
+  //  border: solid;
+}*/
+
+.header{
+    
+    background-color: cadetblue;
+    display: flex;
+     justify-content: space-evenly;
+}
+.grid{
+    border: solid
+    brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}
+.item{
+    border: solid
+    brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+* p {
+    text-align: center;
+   color: red;
+}
