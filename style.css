@@ -1,12 +1,13 @@
 h1 {
     color :brown;
+    font-style: italic;
+    font-size: 35px;
 }
 /* /* {
   //  border: solid;
 }*/
 
 .header{
-    
     background-color: cadetblue;
     display: flex;
      justify-content: space-evenly;
@@ -14,18 +15,76 @@ h1 {
 .grid{
     border: solid
     brown;
+    font: oblique;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;  
 }
+.grid img {
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
 .item{
-    border: solid
-    brown;
+    font: oblique;
     display: flex;
+    margin-right: -120px;
     flex-wrap: wrap;
     justify-content: space-around;  
+    color: saddlebrown;
+}
+.box{
+    margin-right: 100px;
+     color: red;
 }
 * p {
     text-align: center;
-   color: red;
+    font-style: italic;
+    color: red;
+}
+body {
+     background-color: 808080;
+     margin: 0px;
+     color:red;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: red;
+}
+.origami {
+    border-radius: 20px;
+    background-color: yellowgreen;
+    
+    margin: 25px;
+    width: 1290px;
+    height: 1425px;
+    font-family: fantasy;
+}
+.menu a{
+    margin-left: 20px;
+    color:white;
+}
+a:link {
+  color: #ffffff;
+}
+a:link:hover{
+    color: gold ;
+}
+.image{
+    opacity: 1;
+    color: gold;
+}
+.image:hover {
+    opacity: 0.33
+    ;
+       transform: scale(1.2);
+}
+.box{
+    opacity: 1;
 }
